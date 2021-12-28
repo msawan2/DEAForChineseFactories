@@ -5,6 +5,7 @@ A consultancy firm advising the Chinese government on the procurement of manufac
 In order to compute accuracies, Data Envelopment Analysis (DEA) was utilized, which is used to score business efficiency based upon a set of inputs and outputs for that particular business. Inputs and output for our dataset are as follows:
 
 Inputs: Capital (in 100 million RMB), Labor (in 10,000 persons)
+
 Output: Gross Industrial Output Value (GIOV) (in 100 million RMB)
 
 A linear model was constructed and solved for in both Python (Pyomo) and Excel (Solver). Following are the objective function, decision variables, constraint:
