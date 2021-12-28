@@ -8,7 +8,7 @@ Inputs: Capital (in 100 million RMB), Labor (in 10,000 persons)
 
 Output: Gross Industrial Output Value (GIOV) (in 100 million RMB)
 
-A linear model was constructed and solved for in both Python (Pyomo) and Excel (Solver). Following are the objective function, decision variables, constraint:
+A linear model was constructed and solved for in both Python (Pyomo) and Excel (Solver). Following are the objective function, decision variables and constraints:
 
 Objective: Maximize the calculation of the weighted output scores to yield a solution for the linear program. The greater the output score, the higher the overall efficiency score as calculated by the output scores divided by the input scores.
 
